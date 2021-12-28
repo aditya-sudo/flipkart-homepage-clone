@@ -1,3 +1,61 @@
-header{
-    background-color: rgb(57, 127, 233);
-  }
+#whole {
+  background-color: rgba(240, 243, 246, 255);
+}
+#abovesection {
+  background-color: white;
+  padding-left: 20px;
+  max-width: 1320px;
+  margin-left: 200px;
+}
+#belowsection {
+  max-width: 1565px;
+  padding-left: 20px;
+  margin-left: 200px;
+  margin-right: 20px;
+  background-color: white;
+}
+header {
+  background-color: rgb(45, 113, 238);
+}
+#mybutton {
+  color: green;
+}
+#flipkartlogo {
+  width: 100px;
+  height: 60px;
+}
+#login {
+  margin-top: 10px;
+  padding: 3px 40px;
+  color: rgb(45, 113, 238);
+  background-color: white;
+}
+#myad {
+  width: 20%;
+  padding-right: 5px;
+  margin-right: 5px;
+  float: right;
+}
+#cart {
+  font-size: 24px;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#logbtn {
+  padding-right: 1000;
+}
+#btnmore {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+#info {
+  padding-top: 10px;
+}
+#viewall {
+  margin-left: 80px;
+}
+#secondrowproducts {
+  margin-right: 380px;
+}
