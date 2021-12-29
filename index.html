@@ -195,12 +195,12 @@
         <br />
         <div class="container">
           <div class="row" id="info">
-            <div class="col-2">
+            <div class="col-2" id="text">
               <h5>Deals of the Day</h5>
             </div>
-            <div class="col"><img src="images/time.png" /></div>
-            <div class="col-2">
-              <button type="button" class="btn btn-primary" id="viewall">
+            <div class="col" id="timer"><img src="images/time.png" /></div>
+            <div class="col-2" id="text">
+              <button type="button" class="btn btn-primary" id="viewall1">
                 VIEW ALL
               </button>
             </div>
@@ -214,7 +214,11 @@
           <div class="row">
             <div class="col">
               <button type="button" class="btn btn-light btn-sm">
-                <img src="images/watch.webp" height="120" /><button
+                <img
+                  src="images/watch.webp"
+                  id="products"
+                  height="120"
+                /><button
                   type="button"
                   class="btn btn-more btn -sm"
                   aria-expanded="false"
@@ -290,7 +294,11 @@
             </div>
             <div class="col">
               <button type="button" class="btn btn-light btn-sm">
-                <img src="images/dress.jpeg" height="120" /><button
+                <img
+                  src="images/dress.jpeg"
+                  id="products"
+                  height="120"
+                /><button
                   type="button"
                   class="btn btn-more btn -sm"
                   aria-expanded="false"
@@ -309,7 +317,7 @@
             </div>
             <div class="col">
               <button type="button" class="btn btn-light btn-sm">
-                <img src="images/lava1500.webp" height="120" /><button
+                <img src="images/lava1500.webp" id="lava" height="120" /><button
                   type="button"
                   class="btn btn-more btn -sm"
                   aria-expanded="false"
@@ -328,7 +336,8 @@
             </div>
             <div class="col">
               <button type="button" class="btn btn-light btn-sm">
-                <img src="images/lava1500.webp" height="120" /><button
+                <img src="images/lava1500.webp" id="lava" height="120" />
+                <button
                   type="button"
                   class="btn btn-more btn -sm"
                   aria-expanded="false"
@@ -346,10 +355,9 @@
               </button>
             </div>
           </div>
+          <br />
         </div>
       </div>
-
-      <br />
 
       <!--Info part 2-->
 
@@ -359,10 +367,12 @@
         class="container"
       >
         <div class="row" id="info">
-          <div class="col-3"><h5>Books And music Instruments</h5></div>
+          <div class="col-3" id="text">
+            <h5>Books And music Instruments</h5>
+          </div>
           <div class="col"></div>
-          <div class="col-2">
-            <button type="button" class="btn btn-primary" id="viewall">
+          <div class="col-2" id="text">
+            <button type="button" class="btn btn-primary" id="viewall2">
               VIEW ALL
             </button>
           </div>
@@ -397,6 +407,7 @@
                 type="button"
                 class="btn btn-more btn -sm"
                 aria-expanded="false"
+                id="lava"
               >
                 Flutes
                 <button
